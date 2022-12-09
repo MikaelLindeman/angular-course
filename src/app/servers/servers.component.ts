@@ -20,7 +20,6 @@ export class ServersComponent {
       this.allowNewServer = true;
     },2000);
   }
-
   onCreateServer() {
     this.serverCreated = true;
     this.servers.push(this.serverName);
